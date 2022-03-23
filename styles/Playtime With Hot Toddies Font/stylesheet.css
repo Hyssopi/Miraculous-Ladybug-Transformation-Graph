@@ -1,0 +1,11 @@
+@font-face
+{
+  font-family: 'playtimewithhottoddiesRg';
+  src: url('playtime-webfont.eot');
+  src: url('playtime-webfont.eot?#iefix') format('embedded-opentype'),
+       url('playtime-webfont.woff') format('woff'),
+       url('playtime-webfont.ttf') format('truetype'),
+       url('playtime-webfont.svg#playtimewithhottoddiesRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
