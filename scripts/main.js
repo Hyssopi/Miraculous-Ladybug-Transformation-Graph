@@ -303,7 +303,7 @@ function drawGraph(graphHtmlContainerId, graphData)
         let label = node.name;
         // Zoom out: globalScale is smaller (<1), Zoom in: globalScale is bigger (>40)
         let fontSize = ((6 / globalScale) < 2.5) ? 2.5 : (6 / globalScale);
-        ctx.font = ((highlightNodes.indexOf(node) !== -1) ? 'bold' : '') + ` ${fontSize}px Lobster`;
+        ctx.font = `${((highlightNodes.indexOf(node) !== -1) ? 5 : 0) + fontSize}px Lobster`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         if ((highlightNodes.indexOf(node) !== -1) || (highlightNodes.length === 0))
