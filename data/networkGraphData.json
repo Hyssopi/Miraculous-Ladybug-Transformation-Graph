@@ -348,7 +348,9 @@
     {"id": "KITTY_NOIRE", "name": "Kitty Noire", "description": "", "imageFilename": "KITTY_NOIRE.webp", "color": "#DEE647", "group": "CHARACTER"},
     {"id": "SCARLET_FATE", "name": "Scarlet Fate", "description": "", "imageFilename": "SCARLET_FATE.webp", "color": "#E6383C", "group": "CHARACTER"},
     {"id": "BERTRAND_KING", "name": "Bertrand King", "description": "", "imageFilename": "BERTRAND_KING.webp", "color": "#DB5EC6", "group": "CHARACTER"},
-    {"id": "KING_OF_PLASTIC", "name": "King of Plastic", "description": "", "imageFilename": "KING_OF_PLASTIC.webp", "color": "#F9E79E", "group": "CHARACTER"}
+    {"id": "KING_OF_PLASTIC", "name": "King of Plastic", "description": "", "imageFilename": "KING_OF_PLASTIC.webp", "color": "#F9E79E", "group": "CHARACTER"},
+    {"id": "GILBERT", "name": "Gilbert", "description": "", "imageFilename": "GILBERT.webp", "color": "#A98570", "group": "CHARACTER"},
+    {"id": "MIRACULIZED", "name": "Miraculized", "description": "", "imageFilename": "MIRACULIZED.webp", "color": "#A78366", "group": "CHARACTER"}
   ],
   "edgeData":
   [
@@ -823,6 +825,10 @@
     {"sourceId": "VERONIQUE", "targetId": "MANIPULA", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"},
     {"sourceId": "AKUMA", "targetId": "MANIPULA", "shortDescription": "", "fullDescriptionHtml": "", "direction": "NONE"},
     {"sourceId": "ZOE_LEE", "targetId": "KITTY_NOIRE", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"},
-    {"sourceId": "PLAGG", "targetId": "KITTY_NOIRE", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"}
+    {"sourceId": "PLAGG", "targetId": "KITTY_NOIRE", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"},
+    {"sourceId": "IVAN_BRUEL", "targetId": "MIRACULIZED", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"},
+    {"sourceId": "NORA_CESAIRE", "targetId": "MIRACULIZED", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"},
+    {"sourceId": "DENIS_DAMOCLES", "targetId": "MIRACULIZED", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"},
+    {"sourceId": "GILBERT", "targetId": "MIRACULIZED", "shortDescription": "", "fullDescriptionHtml": "", "direction": "DIRECTED"}
   ]
 }
