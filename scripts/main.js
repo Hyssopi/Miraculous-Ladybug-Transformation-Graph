@@ -304,6 +304,12 @@ function drawGraph(graphHtmlContainerId, graphData)
         // Zoom out: globalScale is smaller (<1), Zoom in: globalScale is bigger (>40)
         let fontSize = ((6 / globalScale) < 2.5) ? 2.5 : (6 / globalScale);
         let effectiveFontSize = +((highlightNodes.indexOf(node) !== -1) ? 5 : 0) + fontSize;
+
+
+        console.log(fontSize + ", " + effectiveFontSize);
+
+
+
         ctx.font = `${effectiveFontSize}px Lobster`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
