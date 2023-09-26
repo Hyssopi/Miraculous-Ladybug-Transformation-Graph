@@ -303,14 +303,14 @@ function drawGraph(graphHtmlContainerId, graphData)
         let label = node.name;
         // Zoom out: globalScale is smaller (<1), Zoom in: globalScale is bigger (>40)
         let fontSize = ((6 / globalScale) < 2.5) ? 2.5 : (6 / globalScale);
-        let effectiveFontSize = +((highlightNodes.indexOf(node) !== -1) ? 5 : 0) + fontSize;
-
-
-        console.log(fontSize + ", " + effectiveFontSize);
 
 
 
-        ctx.font = `${effectiveFontSize}px Lobster`;
+        console.log(fontSize + ", " + (fontSize * ((highlightNodes.indexOf(node) !== -1) ? 1.2 : 1)));
+
+
+
+        ctx.font = `${fontSize * ((highlightNodes.indexOf(node) !== -1) ? 1.2 : 1)}px Lobster`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
         if ((highlightNodes.indexOf(node) !== -1) || (highlightNodes.length === 0))
